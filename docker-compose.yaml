@@ -1,0 +1,12 @@
+services:
+  qdm-system:
+    container_name: qdm
+    image: alonza0314/qdm-system:v0.0.0
+    command: ./qdm -c config.yaml
+    expose:
+      - "8888"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./config.yaml:/qdm/config.yaml
+      - /var/lib/qdm:/qdm/db
