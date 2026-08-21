@@ -27,7 +27,7 @@
     docker compose up
     ```
 
-    The default db will be stored at `/var/lib/dm/` which is mounted in the compose file.
+    The default db will be stored at `/var/lib/qdm/` which is mounted in the compose file.
 
 4. Down the compose
 
