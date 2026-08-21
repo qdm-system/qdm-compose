@@ -5,16 +5,16 @@ backend:
   port: 8888
 
   jwt:
-    secret: "dm-system"
+    secret: "qdm-system"
     expiresIn: 1h
 
   db:
     type: "bbolt"
-    path: "./db/dm-system.db"
+    path: "./db/qdm-system.db"
 
   unix:
     enable: true
-    path: "./dm.sock"
+    path: "./qdm.sock"
 
   maxHistory: 100
 
