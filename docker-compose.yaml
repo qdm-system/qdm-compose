@@ -1,7 +1,7 @@
 services:
   qdm-system:
     container_name: qdm
-    image: alonza0314/qdm-system:v0.0.1
+    image: alonza0314/qdm-system:v0.0.2
     command: ./qdm -c config.yaml
     expose:
       - "8888"
